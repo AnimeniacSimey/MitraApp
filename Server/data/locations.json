@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Wilfrid Laurier University",
+    "lat": 43.4738,
+    "lon": -80.5275
+  },
+  {
+    "id": 2,
+    "name": "Athletics Complex",
+    "lat": 43.47528,
+    "lon": -80.525566
+  },
+  {
+    "id": 3,
+    "name": "Science Building",
+    "lat": 43.47348,
+    "lon": -80.52492
+  },
+  {
+    "id": 4,
+    "name": "Concourse",
+    "lat": 43.47345,
+    "lon": -80.52875
+  }
+]

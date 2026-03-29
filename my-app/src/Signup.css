@@ -1,0 +1,149 @@
+body {
+  background-color: #282c34;
+  text-align: center
+}
+
+.container {
+    background-color: #3d3d3d;
+    border-radius: 15px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+
+label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom:5px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.gender-option {
+    color:white; /* change to whatever */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+input[type="radio"] {
+    display: inline;
+    width: 10%;
+    color: white;
+}
+
+input[name ="gender" ] {
+
+    color: white;
+}
+
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+textarea {
+    resize: none;
+    width: 98%;
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 15px;
+    border: 2px #3d3d3d;
+    padding: 10px;
+
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skill-tag {
+  display: flex;
+  align-items: center;
+  background-color: #e0e7ff;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  background-color: #c7d2fe;
+  transform: scale(1.05);
+}
+
+.remove-btn {
+  margin-left: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  color: red;
+}
+
+.skill-tag {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.home-page {
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+.home-page.fade-out {
+  opacity: 0;
+}
+
+
+button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 15px;
+    border: none;
+    color: #3d3d3d;
+    cursor: pointer;
+    background-color: white;
+    width: 40%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f5f5f5;
+}

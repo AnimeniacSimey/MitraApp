@@ -1,0 +1,2 @@
+cd C:\Users\ViZi0\Downloads\hackathon test\hackathon test\my-app
+npm start
