@@ -31,3 +31,6 @@ npm install
 
 ## 6. Run server
 node index.js
+
+<img width="607" height="703" alt="Mitra test option 2" src="https://github.com/user-attachments/assets/ca2487f0-6e35-4b47-9a36-91c45990dc3b" />
+
